@@ -1,0 +1,30 @@
+.navBarCont{
+    display: flex;
+    color: white;
+    padding: 8px;
+    background-color: #ffffff33;
+    font-family: "Roboto";
+    margin: auto;
+    justify-content: space-around;
+}
+
+.leftNavCont{
+    display: flex;
+    align-items: center;
+}
+
+.score {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 16px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .score {
+      font-size: 24px;
+      margin-left: 32px;
+    }
+  }
+  
